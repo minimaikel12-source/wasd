@@ -34,6 +34,26 @@ The high-level steps include:
 3. Adding your token and Guild/Server ID to a `.env` file within the project.
 4. Starting the bot with `uv run thebot`.
 
+## Chat with Claude
+
+The bot can talk to you like the normal Claude app.
+Add your API key to `.env`:
+
+```
+ANTHROPIC_API_KEY=sk-ant-...
+# optional, defaults to claude-opus-5-5
+CLAUDE_MODEL=claude-opus-5-5
+```
+
+Then, in Discord:
+
+- `/claude prompt:<message>` — ask Claude (run `!sync` once so the slash command shows up)
+- `!claude <message>` — same thing with a prefix command
+- `@YourBot <message>` — just mention the bot
+- `!reset` — make Claude forget the conversation in this channel
+
+Each channel has its own conversation, so Claude remembers earlier messages.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).

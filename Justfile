@@ -42,7 +42,11 @@ env_file_template := """# Get your Discord token from the Discord dev console
 DISCORD_TOKEN=
 # Copy the guild ID (aka server ID) of your server,
 # then uncomment the line below.
-# DISCORD_GUILD="""
+# DISCORD_GUILD=
+# Get your Claude API key from https://platform.claude.com
+ANTHROPIC_API_KEY=
+# Optional: which Claude model to use
+# CLAUDE_MODEL=claude-opus-5-5"""
 
 # Check that a .env file is present, writing a template version if not.
 [no-exit-message]
