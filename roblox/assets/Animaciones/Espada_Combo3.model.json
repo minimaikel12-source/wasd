@@ -1,0 +1,2119 @@
+{
+ "className": "KeyframeSequence",
+ "properties": {
+  "Loop": false,
+  "Priority": "Action"
+ },
+ "children": [
+  {
+   "name": "Keyframe",
+   "className": "Keyframe",
+   "properties": {
+    "Time": 0
+   },
+   "children": [
+    {
+     "name": "HumanoidRootPart",
+     "className": "Pose",
+     "properties": {
+      "Weight": 0,
+      "EasingStyle": "Cubic",
+      "EasingDirection": "Out"
+     },
+     "children": [
+      {
+       "name": "LowerTorso",
+       "className": "Pose",
+       "properties": {
+        "Weight": 1,
+        "EasingStyle": "Cubic",
+        "EasingDirection": "Out",
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           0,
+           -0.3,
+           0
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        }
+       },
+       "children": [
+        {
+         "name": "UpperTorso",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "Out",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              0.96593,
+              0.0,
+              -0.25882
+             ],
+             [
+              0.0,
+              1.0,
+              0.0
+             ],
+             [
+              0.25882,
+              0.0,
+              0.96593
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                0.93969,
+                0.34202,
+                0.0
+               ],
+               [
+                -0.32139,
+                0.88302,
+                -0.34202
+               ],
+               [
+                -0.11698,
+                0.32139,
+                0.93969
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "LeftLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Cubic",
+              "EasingDirection": "Out",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.76604,
+                  -0.64279
+                 ],
+                 [
+                  0.0,
+                  0.64279,
+                  0.76604
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          },
+          {
+           "name": "Head",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                1.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.0,
+                1.0
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          },
+          {
+           "name": "RightUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                0.98481,
+                -0.17365,
+                0.0
+               ],
+               [
+                0.12279,
+                0.69636,
+                -0.70711
+               ],
+               [
+                0.12279,
+                0.69636,
+                0.70711
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "RightLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Cubic",
+              "EasingDirection": "Out",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.70711,
+                  -0.70711
+                 ],
+                 [
+                  0.0,
+                  0.70711,
+                  0.70711
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "LeftUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "Out",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.90631,
+              -0.42262
+             ],
+             [
+              0.0,
+              0.42262,
+              0.90631
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.90631,
+                0.42262
+               ],
+               [
+                0.0,
+                -0.42262,
+                0.90631
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "name": "RightUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "Out",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.98481,
+              0.17365
+             ],
+             [
+              0.0,
+              -0.17365,
+              0.98481
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "RightLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.96593,
+                0.25882
+               ],
+               [
+                0.0,
+                -0.25882,
+                0.96593
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Keyframe",
+   "className": "Keyframe",
+   "properties": {
+    "Time": 0.2
+   },
+   "children": [
+    {
+     "name": "HumanoidRootPart",
+     "className": "Pose",
+     "properties": {
+      "Weight": 0,
+      "EasingStyle": "Cubic",
+      "EasingDirection": "Out"
+     },
+     "children": [
+      {
+       "name": "LowerTorso",
+       "className": "Pose",
+       "properties": {
+        "Weight": 1,
+        "EasingStyle": "Cubic",
+        "EasingDirection": "Out",
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           0,
+           0.45,
+           0
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        }
+       },
+       "children": [
+        {
+         "name": "UpperTorso",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "Out",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.92718,
+              -0.37461
+             ],
+             [
+              0.0,
+              0.37461,
+              0.92718
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                0.99619,
+                0.08716,
+                0.0
+               ],
+               [
+                0.08631,
+                -0.9865,
+                -0.13917
+               ],
+               [
+                -0.01213,
+                0.13864,
+                -0.99027
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "LeftLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Cubic",
+              "EasingDirection": "Out",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.81915,
+                  -0.57358
+                 ],
+                 [
+                  0.0,
+                  0.57358,
+                  0.81915
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          },
+          {
+           "name": "Head",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.93969,
+                -0.34202
+               ],
+               [
+                0.0,
+                0.34202,
+                0.93969
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          },
+          {
+           "name": "RightUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                0.99619,
+                -0.08716,
+                0.0
+               ],
+               [
+                -0.0871,
+                -0.99559,
+                0.0349
+               ],
+               [
+                -0.00304,
+                -0.03477,
+                -0.99939
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "RightLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Cubic",
+              "EasingDirection": "Out",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.86603,
+                  -0.5
+                 ],
+                 [
+                  0.0,
+                  0.5,
+                  0.86603
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "LeftUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "Out",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.98481,
+              -0.17365
+             ],
+             [
+              0.0,
+              0.17365,
+              0.98481
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.76604,
+                0.64279
+               ],
+               [
+                0.0,
+                -0.64279,
+                0.76604
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "name": "RightUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "Out",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.86603,
+              -0.5
+             ],
+             [
+              0.0,
+              0.5,
+              0.86603
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "RightLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.5,
+                0.86603
+               ],
+               [
+                0.0,
+                -0.86603,
+                0.5
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Keyframe",
+   "className": "Keyframe",
+   "properties": {
+    "Time": 0.33
+   },
+   "children": [
+    {
+     "name": "HumanoidRootPart",
+     "className": "Pose",
+     "properties": {
+      "Weight": 0,
+      "EasingStyle": "Linear",
+      "EasingDirection": "Out"
+     },
+     "children": [
+      {
+       "name": "LowerTorso",
+       "className": "Pose",
+       "properties": {
+        "Weight": 1,
+        "EasingStyle": "Linear",
+        "EasingDirection": "Out",
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           0,
+           -1.1,
+           -0.6
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        }
+       },
+       "children": [
+        {
+         "name": "UpperTorso",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Linear",
+          "EasingDirection": "Out",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.74314,
+              0.66913
+             ],
+             [
+              0.0,
+              -0.66913,
+              0.74314
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Linear",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.76604,
+                -0.64279
+               ],
+               [
+                0.0,
+                0.64279,
+                0.76604
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "LeftLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Linear",
+              "EasingDirection": "Out",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.98481,
+                  -0.17365
+                 ],
+                 [
+                  0.0,
+                  0.17365,
+                  0.98481
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          },
+          {
+           "name": "Head",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Linear",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.99619,
+                0.08716
+               ],
+               [
+                0.0,
+                -0.08716,
+                0.99619
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          },
+          {
+           "name": "RightUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Linear",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.70711,
+                -0.70711
+               ],
+               [
+                0.0,
+                0.70711,
+                0.70711
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "RightLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Linear",
+              "EasingDirection": "Out",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  1.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.0,
+                  1.0
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "LeftUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Linear",
+          "EasingDirection": "Out",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.96593,
+              0.25882
+             ],
+             [
+              0.0,
+              -0.25882,
+              0.96593
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Linear",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.64279,
+                0.76604
+               ],
+               [
+                0.0,
+                -0.76604,
+                0.64279
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "name": "RightUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Linear",
+          "EasingDirection": "Out",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.57358,
+              -0.81915
+             ],
+             [
+              0.0,
+              0.81915,
+              0.57358
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "RightLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Linear",
+            "EasingDirection": "Out",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.25882,
+                0.96593
+               ],
+               [
+                0.0,
+                -0.96593,
+                0.25882
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Keyframe",
+   "className": "Keyframe",
+   "properties": {
+    "Time": 0.55
+   },
+   "children": [
+    {
+     "name": "HumanoidRootPart",
+     "className": "Pose",
+     "properties": {
+      "Weight": 0,
+      "EasingStyle": "Cubic",
+      "EasingDirection": "InOut"
+     },
+     "children": [
+      {
+       "name": "LowerTorso",
+       "className": "Pose",
+       "properties": {
+        "Weight": 1,
+        "EasingStyle": "Cubic",
+        "EasingDirection": "InOut",
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           0,
+           -1.05,
+           -0.6
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        }
+       },
+       "children": [
+        {
+         "name": "UpperTorso",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "InOut",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.74314,
+              0.66913
+             ],
+             [
+              0.0,
+              -0.66913,
+              0.74314
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.76604,
+                -0.64279
+               ],
+               [
+                0.0,
+                0.64279,
+                0.76604
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "LeftLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Cubic",
+              "EasingDirection": "InOut",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.98481,
+                  -0.17365
+                 ],
+                 [
+                  0.0,
+                  0.17365,
+                  0.98481
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          },
+          {
+           "name": "Head",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.99619,
+                0.08716
+               ],
+               [
+                0.0,
+                -0.08716,
+                0.99619
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          },
+          {
+           "name": "RightUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.70711,
+                -0.70711
+               ],
+               [
+                0.0,
+                0.70711,
+                0.70711
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "RightLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Cubic",
+              "EasingDirection": "InOut",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  1.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.0,
+                  1.0
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "LeftUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "InOut",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.96593,
+              0.25882
+             ],
+             [
+              0.0,
+              -0.25882,
+              0.96593
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.64279,
+                0.76604
+               ],
+               [
+                0.0,
+                -0.76604,
+                0.64279
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "name": "RightUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "InOut",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.57358,
+              -0.81915
+             ],
+             [
+              0.0,
+              0.81915,
+              0.57358
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "RightLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.25882,
+                0.96593
+               ],
+               [
+                0.0,
+                -0.96593,
+                0.25882
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Keyframe",
+   "className": "Keyframe",
+   "properties": {
+    "Time": 0.75
+   },
+   "children": [
+    {
+     "name": "HumanoidRootPart",
+     "className": "Pose",
+     "properties": {
+      "Weight": 0,
+      "EasingStyle": "Cubic",
+      "EasingDirection": "InOut"
+     },
+     "children": [
+      {
+       "name": "LowerTorso",
+       "className": "Pose",
+       "properties": {
+        "Weight": 1,
+        "EasingStyle": "Cubic",
+        "EasingDirection": "InOut",
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           0,
+           -0.3,
+           0
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        }
+       },
+       "children": [
+        {
+         "name": "UpperTorso",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "InOut",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              0.96593,
+              0.0,
+              -0.25882
+             ],
+             [
+              0.0,
+              1.0,
+              0.0
+             ],
+             [
+              0.25882,
+              0.0,
+              0.96593
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                0.93969,
+                0.34202,
+                0.0
+               ],
+               [
+                -0.32139,
+                0.88302,
+                -0.34202
+               ],
+               [
+                -0.11698,
+                0.32139,
+                0.93969
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "LeftLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Cubic",
+              "EasingDirection": "InOut",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.76604,
+                  -0.64279
+                 ],
+                 [
+                  0.0,
+                  0.64279,
+                  0.76604
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          },
+          {
+           "name": "Head",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                1.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.0,
+                1.0
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          },
+          {
+           "name": "RightUpperArm",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                0.98481,
+                -0.17365,
+                0.0
+               ],
+               [
+                0.12279,
+                0.69636,
+                -0.70711
+               ],
+               [
+                0.12279,
+                0.69636,
+                0.70711
+               ]
+              ]
+             }
+            }
+           },
+           "children": [
+            {
+             "name": "RightLowerArm",
+             "className": "Pose",
+             "properties": {
+              "Weight": 1,
+              "EasingStyle": "Cubic",
+              "EasingDirection": "InOut",
+              "CFrame": {
+               "CFrame": {
+                "position": [
+                 0,
+                 0,
+                 0
+                ],
+                "orientation": [
+                 [
+                  1.0,
+                  0.0,
+                  0.0
+                 ],
+                 [
+                  0.0,
+                  0.70711,
+                  -0.70711
+                 ],
+                 [
+                  0.0,
+                  0.70711,
+                  0.70711
+                 ]
+                ]
+               }
+              }
+             },
+             "children": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "LeftUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "InOut",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.90631,
+              -0.42262
+             ],
+             [
+              0.0,
+              0.42262,
+              0.90631
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "LeftLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.90631,
+                0.42262
+               ],
+               [
+                0.0,
+                -0.42262,
+                0.90631
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "name": "RightUpperLeg",
+         "className": "Pose",
+         "properties": {
+          "Weight": 1,
+          "EasingStyle": "Cubic",
+          "EasingDirection": "InOut",
+          "CFrame": {
+           "CFrame": {
+            "position": [
+             0,
+             0,
+             0
+            ],
+            "orientation": [
+             [
+              1.0,
+              0.0,
+              0.0
+             ],
+             [
+              0.0,
+              0.98481,
+              0.17365
+             ],
+             [
+              0.0,
+              -0.17365,
+              0.98481
+             ]
+            ]
+           }
+          }
+         },
+         "children": [
+          {
+           "name": "RightLowerLeg",
+           "className": "Pose",
+           "properties": {
+            "Weight": 1,
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut",
+            "CFrame": {
+             "CFrame": {
+              "position": [
+               0,
+               0,
+               0
+              ],
+              "orientation": [
+               [
+                1.0,
+                0.0,
+                0.0
+               ],
+               [
+                0.0,
+                0.96593,
+                0.25882
+               ],
+               [
+                0.0,
+                -0.25882,
+                0.96593
+               ]
+              ]
+             }
+            }
+           },
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

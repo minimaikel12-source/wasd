@@ -1,0 +1,3233 @@
+{
+ "className": "Model",
+ "children": [
+  {
+   "name": "Suelo",
+   "className": "Part",
+   "properties": {
+    "Size": [
+     120,
+     1,
+     90
+    ],
+    "CFrame": {
+     "CFrame": {
+      "position": [
+       0,
+       0.5,
+       -10
+      ],
+      "orientation": [
+       [
+        1.0,
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        1.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Anchored": true,
+    "Color": [
+     0.27450980392156865,
+     0.2549019607843137,
+     0.23529411764705882
+    ],
+    "Material": "Concrete",
+    "TopSurface": "Smooth",
+    "BottomSurface": "Smooth"
+   },
+   "children": []
+  },
+  {
+   "name": "PesasLigeras",
+   "className": "Model",
+   "children": [
+    {
+     "name": "Plataforma",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       14,
+       1,
+       14
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -40,
+         0.5,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.23529411764705882,
+       0.23529411764705882,
+       0.27450980392156865
+      ],
+      "Material": "DiamondPlate",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Barra",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       7.2,
+       0.4,
+       0.4
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -40,
+         2.2,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.7843137254901961,
+       0.7843137254901961,
+       0.803921568627451
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Prompt",
+       "className": "ProximityPrompt",
+       "properties": {
+        "ActionText": "Levantar",
+        "ObjectText": "Pesas ligeras",
+        "HoldDuration": 0,
+        "MaxActivationDistance": 10,
+        "RequiresLineOfSight": false,
+        "KeyboardKeyCode": "E"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Disco",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.8,
+       2.6,
+       2.6
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -42.88,
+         2.2,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.35294117647058826,
+       0.35294117647058826,
+       0.37254901960784315
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth",
+      "Shape": "Cylinder"
+     },
+     "children": []
+    },
+    {
+     "name": "Disco",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.8,
+       2.6,
+       2.6
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -37.12,
+         2.2,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.35294117647058826,
+       0.35294117647058826,
+       0.37254901960784315
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth",
+      "Shape": "Cylinder"
+     },
+     "children": []
+    },
+    {
+     "name": "Soporte",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       1,
+       2,
+       1
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -40,
+         1.5,
+         -28
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.1568627450980392,
+       0.1568627450980392,
+       0.1568627450980392
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Cartel",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       10,
+       3,
+       0.4
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -40,
+         3.0,
+         -22.8
+        ],
+        "orientation": [
+         [
+          -1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          -0.0,
+          0.0,
+          -1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.1568627450980392,
+       0.11764705882352941,
+       0.09803921568627451
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Cartel",
+       "className": "SurfaceGui",
+       "properties": {
+        "Face": "Front",
+        "PixelsPerStud": 40,
+        "SizingMode": "PixelsPerStud"
+       },
+       "children": [
+        {
+         "name": "Texto",
+         "className": "TextLabel",
+         "properties": {
+          "Size": {
+           "UDim2": [
+            [
+             1,
+             0
+            ],
+            [
+             1,
+             0
+            ]
+           ]
+          },
+          "BackgroundTransparency": 1,
+          "Text": "Pesas ligeras\nLIBRE",
+          "TextScaled": true,
+          "Font": "LuckiestGuy",
+          "TextColor3": [
+           1.0,
+           0.7843137254901961,
+           0.23529411764705882
+          ],
+          "TextStrokeTransparency": 0
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "attributes": {
+    "Tipo": "Pesas",
+    "Clave": "PesasLigeras"
+   }
+  },
+  {
+   "name": "SacoBoxeo",
+   "className": "Model",
+   "children": [
+    {
+     "name": "Plataforma",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       14,
+       1,
+       14
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -14,
+         0.5,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.23529411764705882,
+       0.23529411764705882,
+       0.27450980392156865
+      ],
+      "Material": "DiamondPlate",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Equipo",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       3,
+       7.5,
+       3
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -14,
+         5.75,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.5882352941176471,
+       0.1568627450980392,
+       0.11764705882352941
+      ],
+      "Material": "Fabric",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Prompt",
+       "className": "ProximityPrompt",
+       "properties": {
+        "ActionText": "Golpear",
+        "ObjectText": "Saco de boxeo",
+        "HoldDuration": 0,
+        "MaxActivationDistance": 10,
+        "RequiresLineOfSight": false,
+        "KeyboardKeyCode": "E"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Cadena",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.3,
+       2,
+       0.3
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -14,
+         10.5,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.3137254901960784,
+       0.3137254901960784,
+       0.3137254901960784
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Viga",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       6,
+       0.8,
+       0.8
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -14,
+         11.5,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.3137254901960784,
+       0.19607843137254902,
+       0.11764705882352941
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Poste",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.8,
+       11.5,
+       0.8
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -17,
+         6.75,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.3137254901960784,
+       0.19607843137254902,
+       0.11764705882352941
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Poste",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.8,
+       11.5,
+       0.8
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -11,
+         6.75,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.3137254901960784,
+       0.19607843137254902,
+       0.11764705882352941
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Cartel",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       10,
+       3,
+       0.4
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -14,
+         3.0,
+         -22.8
+        ],
+        "orientation": [
+         [
+          -1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          -0.0,
+          0.0,
+          -1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.1568627450980392,
+       0.11764705882352941,
+       0.09803921568627451
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Cartel",
+       "className": "SurfaceGui",
+       "properties": {
+        "Face": "Front",
+        "PixelsPerStud": 40,
+        "SizingMode": "PixelsPerStud"
+       },
+       "children": [
+        {
+         "name": "Texto",
+         "className": "TextLabel",
+         "properties": {
+          "Size": {
+           "UDim2": [
+            [
+             1,
+             0
+            ],
+            [
+             1,
+             0
+            ]
+           ]
+          },
+          "BackgroundTransparency": 1,
+          "Text": "Saco de boxeo\nLIBRE",
+          "TextScaled": true,
+          "Font": "LuckiestGuy",
+          "TextColor3": [
+           1.0,
+           0.7843137254901961,
+           0.23529411764705882
+          ],
+          "TextStrokeTransparency": 0
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "attributes": {
+    "Tipo": "Saco",
+    "Clave": "SacoBoxeo"
+   }
+  },
+  {
+   "name": "PesasPesadas",
+   "className": "Model",
+   "children": [
+    {
+     "name": "Plataforma",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       14,
+       1,
+       14
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         12,
+         0.5,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.23529411764705882,
+       0.23529411764705882,
+       0.27450980392156865
+      ],
+      "Material": "DiamondPlate",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Barra",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       10.8,
+       0.4,
+       0.4
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         12,
+         2.2,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.7843137254901961,
+       0.7843137254901961,
+       0.803921568627451
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Prompt",
+       "className": "ProximityPrompt",
+       "properties": {
+        "ActionText": "Levantar",
+        "ObjectText": "Pesas pesadas",
+        "HoldDuration": 0,
+        "MaxActivationDistance": 10,
+        "RequiresLineOfSight": false,
+        "KeyboardKeyCode": "E"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Disco",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.8,
+       3.9,
+       3.9
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         7.68,
+         2.2,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.35294117647058826,
+       0.35294117647058826,
+       0.37254901960784315
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth",
+      "Shape": "Cylinder"
+     },
+     "children": []
+    },
+    {
+     "name": "Disco",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.8,
+       3.9,
+       3.9
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         16.32,
+         2.2,
+         -30
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.35294117647058826,
+       0.35294117647058826,
+       0.37254901960784315
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth",
+      "Shape": "Cylinder"
+     },
+     "children": []
+    },
+    {
+     "name": "Soporte",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       1,
+       2,
+       1
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         12,
+         1.5,
+         -28
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.1568627450980392,
+       0.1568627450980392,
+       0.1568627450980392
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Cartel",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       10,
+       3,
+       0.4
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         12,
+         3.0,
+         -22.8
+        ],
+        "orientation": [
+         [
+          -1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          -0.0,
+          0.0,
+          -1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.1568627450980392,
+       0.11764705882352941,
+       0.09803921568627451
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Cartel",
+       "className": "SurfaceGui",
+       "properties": {
+        "Face": "Front",
+        "PixelsPerStud": 40,
+        "SizingMode": "PixelsPerStud"
+       },
+       "children": [
+        {
+         "name": "Texto",
+         "className": "TextLabel",
+         "properties": {
+          "Size": {
+           "UDim2": [
+            [
+             1,
+             0
+            ],
+            [
+             1,
+             0
+            ]
+           ]
+          },
+          "BackgroundTransparency": 1,
+          "Text": "Pesas pesadas\n150 FUERZA",
+          "TextScaled": true,
+          "Font": "LuckiestGuy",
+          "TextColor3": [
+           1.0,
+           0.7843137254901961,
+           0.23529411764705882
+          ],
+          "TextStrokeTransparency": 0
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "attributes": {
+    "Tipo": "Pesas",
+    "Clave": "PesasPesadas"
+   }
+  },
+  {
+   "name": "SacoAcero",
+   "className": "Model",
+   "children": [
+    {
+     "name": "Plataforma",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       14,
+       1,
+       14
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -40,
+         0.5,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.23529411764705882,
+       0.23529411764705882,
+       0.27450980392156865
+      ],
+      "Material": "DiamondPlate",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Equipo",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       3,
+       10.5,
+       3
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -40,
+         7.25,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.47058823529411764,
+       0.49019607843137253,
+       0.5294117647058824
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Prompt",
+       "className": "ProximityPrompt",
+       "properties": {
+        "ActionText": "Golpear",
+        "ObjectText": "Saco de acero",
+        "HoldDuration": 0,
+        "MaxActivationDistance": 10,
+        "RequiresLineOfSight": false,
+        "KeyboardKeyCode": "E"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Cadena",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.3,
+       2,
+       0.3
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -40,
+         13.5,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.3137254901960784,
+       0.3137254901960784,
+       0.3137254901960784
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Viga",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       6,
+       0.8,
+       0.8
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -40,
+         14.5,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.3137254901960784,
+       0.19607843137254902,
+       0.11764705882352941
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Poste",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.8,
+       14.5,
+       0.8
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -43,
+         8.25,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.3137254901960784,
+       0.19607843137254902,
+       0.11764705882352941
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Poste",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       0.8,
+       14.5,
+       0.8
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -37,
+         8.25,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.3137254901960784,
+       0.19607843137254902,
+       0.11764705882352941
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Cartel",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       10,
+       3,
+       0.4
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -40,
+         3.0,
+         5.2
+        ],
+        "orientation": [
+         [
+          -1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          -0.0,
+          0.0,
+          -1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.1568627450980392,
+       0.11764705882352941,
+       0.09803921568627451
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Cartel",
+       "className": "SurfaceGui",
+       "properties": {
+        "Face": "Front",
+        "PixelsPerStud": 40,
+        "SizingMode": "PixelsPerStud"
+       },
+       "children": [
+        {
+         "name": "Texto",
+         "className": "TextLabel",
+         "properties": {
+          "Size": {
+           "UDim2": [
+            [
+             1,
+             0
+            ],
+            [
+             1,
+             0
+            ]
+           ]
+          },
+          "BackgroundTransparency": 1,
+          "Text": "Saco de acero\n800 FUERZA",
+          "TextScaled": true,
+          "Font": "LuckiestGuy",
+          "TextColor3": [
+           1.0,
+           0.7843137254901961,
+           0.23529411764705882
+          ],
+          "TextStrokeTransparency": 0
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "attributes": {
+    "Tipo": "Saco",
+    "Clave": "SacoAcero"
+   }
+  },
+  {
+   "name": "RocaTitan",
+   "className": "Model",
+   "children": [
+    {
+     "name": "Plataforma",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       14,
+       1,
+       14
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -14,
+         0.5,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.23529411764705882,
+       0.23529411764705882,
+       0.27450980392156865
+      ],
+      "Material": "DiamondPlate",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Equipo",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       6,
+       5,
+       6
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -14,
+         3.5,
+         -2
+        ],
+        "orientation": [
+         [
+          0.90286,
+          -0.07899,
+          0.42262
+         ],
+         [
+          0.15894,
+          0.97466,
+          -0.15738
+         ],
+         [
+          -0.39948,
+          0.20926,
+          0.89254
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.39215686274509803,
+       0.35294117647058826,
+       0.3137254901960784
+      ],
+      "Material": "Rock",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Prompt",
+       "className": "ProximityPrompt",
+       "properties": {
+        "ActionText": "Levantar",
+        "ObjectText": "Roca del Titán",
+        "HoldDuration": 0,
+        "MaxActivationDistance": 10,
+        "RequiresLineOfSight": false,
+        "KeyboardKeyCode": "E"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Cartel",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       10,
+       3,
+       0.4
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         -14,
+         3.0,
+         5.2
+        ],
+        "orientation": [
+         [
+          -1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          -0.0,
+          0.0,
+          -1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.1568627450980392,
+       0.11764705882352941,
+       0.09803921568627451
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Cartel",
+       "className": "SurfaceGui",
+       "properties": {
+        "Face": "Front",
+        "PixelsPerStud": 40,
+        "SizingMode": "PixelsPerStud"
+       },
+       "children": [
+        {
+         "name": "Texto",
+         "className": "TextLabel",
+         "properties": {
+          "Size": {
+           "UDim2": [
+            [
+             1,
+             0
+            ],
+            [
+             1,
+             0
+            ]
+           ]
+          },
+          "BackgroundTransparency": 1,
+          "Text": "Roca del Titán\n4000 FUERZA",
+          "TextScaled": true,
+          "Font": "LuckiestGuy",
+          "TextColor3": [
+           1.0,
+           0.7843137254901961,
+           0.23529411764705882
+          ],
+          "TextStrokeTransparency": 0
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "attributes": {
+    "Tipo": "Pesas",
+    "Clave": "RocaTitan"
+   }
+  },
+  {
+   "name": "YunqueColosal",
+   "className": "Model",
+   "children": [
+    {
+     "name": "Plataforma",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       14,
+       1,
+       14
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         12,
+         0.5,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.23529411764705882,
+       0.23529411764705882,
+       0.27450980392156865
+      ],
+      "Material": "DiamondPlate",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Equipo",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       6,
+       3,
+       3.5
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         12,
+         2.5,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.21568627450980393,
+       0.21568627450980393,
+       0.23529411764705882
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Prompt",
+       "className": "ProximityPrompt",
+       "properties": {
+        "ActionText": "Golpear",
+        "ObjectText": "Yunque colosal",
+        "HoldDuration": 0,
+        "MaxActivationDistance": 10,
+        "RequiresLineOfSight": false,
+        "KeyboardKeyCode": "E"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Pie",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       3,
+       2,
+       2.5
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         12,
+         1.5,
+         -2
+        ],
+        "orientation": [
+         [
+          1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          0.0,
+          0.0,
+          1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.1568627450980392,
+       0.1568627450980392,
+       0.17647058823529413
+      ],
+      "Material": "Metal",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": []
+    },
+    {
+     "name": "Cartel",
+     "className": "Part",
+     "properties": {
+      "Size": [
+       10,
+       3,
+       0.4
+      ],
+      "CFrame": {
+       "CFrame": {
+        "position": [
+         12,
+         3.0,
+         5.2
+        ],
+        "orientation": [
+         [
+          -1.0,
+          0.0,
+          0.0
+         ],
+         [
+          0.0,
+          1.0,
+          0.0
+         ],
+         [
+          -0.0,
+          0.0,
+          -1.0
+         ]
+        ]
+       }
+      },
+      "Anchored": true,
+      "Color": [
+       0.1568627450980392,
+       0.11764705882352941,
+       0.09803921568627451
+      ],
+      "Material": "Wood",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+     },
+     "children": [
+      {
+       "name": "Cartel",
+       "className": "SurfaceGui",
+       "properties": {
+        "Face": "Front",
+        "PixelsPerStud": 40,
+        "SizingMode": "PixelsPerStud"
+       },
+       "children": [
+        {
+         "name": "Texto",
+         "className": "TextLabel",
+         "properties": {
+          "Size": {
+           "UDim2": [
+            [
+             1,
+             0
+            ],
+            [
+             1,
+             0
+            ]
+           ]
+          },
+          "BackgroundTransparency": 1,
+          "Text": "Yunque colosal\n15000 FUERZA",
+          "TextScaled": true,
+          "Font": "LuckiestGuy",
+          "TextColor3": [
+           1.0,
+           0.7843137254901961,
+           0.23529411764705882
+          ],
+          "TextStrokeTransparency": 0
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "attributes": {
+    "Tipo": "Saco",
+    "Clave": "YunqueColosal"
+   }
+  },
+  {
+   "name": "Munecos",
+   "className": "Folder",
+   "children": [
+    {
+     "name": "Muneco1",
+     "className": "Model",
+     "children": [
+      {
+       "name": "Base",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         3,
+         1,
+         3
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           36,
+           1.5,
+           -30
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.23529411764705882,
+         0.1568627450980392,
+         0.09803921568627451
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Poste",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         0.6,
+         3,
+         0.6
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           36,
+           3.5,
+           -30
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.35294117647058826,
+         0.23529411764705882,
+         0.13725490196078433
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Cuerpo",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         2.4,
+         3.2,
+         1.4
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           36,
+           6.6,
+           -30
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.7450980392156863,
+         0.6274509803921569,
+         0.43137254901960786
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Cabeza",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         1.6,
+         1.6,
+         1.6
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           36,
+           9.0,
+           -30
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.7843137254901961,
+         0.6666666666666666,
+         0.47058823529411764
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Ball"
+       },
+       "children": []
+      }
+     ],
+     "attributes": {
+      "VidaMax": 500
+     }
+    },
+    {
+     "name": "Muneco2",
+     "className": "Model",
+     "children": [
+      {
+       "name": "Base",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         3,
+         1,
+         3
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           46,
+           1.5,
+           -30
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.23529411764705882,
+         0.1568627450980392,
+         0.09803921568627451
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Poste",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         0.6,
+         3,
+         0.6
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           46,
+           3.5,
+           -30
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.35294117647058826,
+         0.23529411764705882,
+         0.13725490196078433
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Cuerpo",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         2.4,
+         3.2,
+         1.4
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           46,
+           6.6,
+           -30
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.7450980392156863,
+         0.6274509803921569,
+         0.43137254901960786
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Cabeza",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         1.6,
+         1.6,
+         1.6
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           46,
+           9.0,
+           -30
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.7843137254901961,
+         0.6666666666666666,
+         0.47058823529411764
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Ball"
+       },
+       "children": []
+      }
+     ],
+     "attributes": {
+      "VidaMax": 500
+     }
+    },
+    {
+     "name": "Muneco3",
+     "className": "Model",
+     "children": [
+      {
+       "name": "Base",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         3,
+         1,
+         3
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           36,
+           1.5,
+           -16
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.23529411764705882,
+         0.1568627450980392,
+         0.09803921568627451
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Poste",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         0.6,
+         3,
+         0.6
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           36,
+           3.5,
+           -16
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.35294117647058826,
+         0.23529411764705882,
+         0.13725490196078433
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Cuerpo",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         2.4,
+         3.2,
+         1.4
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           36,
+           6.6,
+           -16
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.7450980392156863,
+         0.6274509803921569,
+         0.43137254901960786
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Cabeza",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         1.6,
+         1.6,
+         1.6
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           36,
+           9.0,
+           -16
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.7843137254901961,
+         0.6666666666666666,
+         0.47058823529411764
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Ball"
+       },
+       "children": []
+      }
+     ],
+     "attributes": {
+      "VidaMax": 500
+     }
+    },
+    {
+     "name": "Muneco4",
+     "className": "Model",
+     "children": [
+      {
+       "name": "Base",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         3,
+         1,
+         3
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           46,
+           1.5,
+           -16
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.23529411764705882,
+         0.1568627450980392,
+         0.09803921568627451
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Poste",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         0.6,
+         3,
+         0.6
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           46,
+           3.5,
+           -16
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.35294117647058826,
+         0.23529411764705882,
+         0.13725490196078433
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Cuerpo",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         2.4,
+         3.2,
+         1.4
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           46,
+           6.6,
+           -16
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.7450980392156863,
+         0.6274509803921569,
+         0.43137254901960786
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+       },
+       "children": []
+      },
+      {
+       "name": "Cabeza",
+       "className": "Part",
+       "properties": {
+        "Size": [
+         1.6,
+         1.6,
+         1.6
+        ],
+        "CFrame": {
+         "CFrame": {
+          "position": [
+           46,
+           9.0,
+           -16
+          ],
+          "orientation": [
+           [
+            1.0,
+            0.0,
+            0.0
+           ],
+           [
+            0.0,
+            1.0,
+            0.0
+           ],
+           [
+            0.0,
+            0.0,
+            1.0
+           ]
+          ]
+         }
+        },
+        "Anchored": true,
+        "Color": [
+         0.7843137254901961,
+         0.6666666666666666,
+         0.47058823529411764
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Ball"
+       },
+       "children": []
+      }
+     ],
+     "attributes": {
+      "VidaMax": 500
+     }
+    }
+   ]
+  },
+  {
+   "name": "Cartel",
+   "className": "Part",
+   "properties": {
+    "Size": [
+     36,
+     3,
+     0.4
+    ],
+    "CFrame": {
+     "CFrame": {
+      "position": [
+       -14,
+       12,
+       -42
+      ],
+      "orientation": [
+       [
+        1.0,
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        1.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Anchored": true,
+    "Color": [
+     0.1568627450980392,
+     0.11764705882352941,
+     0.09803921568627451
+    ],
+    "Material": "Wood",
+    "TopSurface": "Smooth",
+    "BottomSurface": "Smooth"
+   },
+   "children": [
+    {
+     "name": "Cartel",
+     "className": "SurfaceGui",
+     "properties": {
+      "Face": "Front",
+      "PixelsPerStud": 40,
+      "SizingMode": "PixelsPerStud"
+     },
+     "children": [
+      {
+       "name": "Texto",
+       "className": "TextLabel",
+       "properties": {
+        "Size": {
+         "UDim2": [
+          [
+           1,
+           0
+          ],
+          [
+           1,
+           0
+          ]
+         ]
+        },
+        "BackgroundTransparency": 1,
+        "Text": "ZONA DE ENTRENAMIENTO",
+        "TextScaled": true,
+        "Font": "LuckiestGuy",
+        "TextColor3": [
+         1.0,
+         0.7843137254901961,
+         0.23529411764705882
+        ],
+        "TextStrokeTransparency": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cartel",
+   "className": "Part",
+   "properties": {
+    "Size": [
+     18,
+     3,
+     0.4
+    ],
+    "CFrame": {
+     "CFrame": {
+      "position": [
+       41,
+       6,
+       -40
+      ],
+      "orientation": [
+       [
+        1.0,
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        1.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Anchored": true,
+    "Color": [
+     0.1568627450980392,
+     0.11764705882352941,
+     0.09803921568627451
+    ],
+    "Material": "Wood",
+    "TopSurface": "Smooth",
+    "BottomSurface": "Smooth"
+   },
+   "children": [
+    {
+     "name": "Cartel",
+     "className": "SurfaceGui",
+     "properties": {
+      "Face": "Front",
+      "PixelsPerStud": 40,
+      "SizingMode": "PixelsPerStud"
+     },
+     "children": [
+      {
+       "name": "Texto",
+       "className": "TextLabel",
+       "properties": {
+        "Size": {
+         "UDim2": [
+          [
+           1,
+           0
+          ],
+          [
+           1,
+           0
+          ]
+         ]
+        },
+        "BackgroundTransparency": 1,
+        "Text": "MUÑECOS: prueba tus habilidades",
+        "TextScaled": true,
+        "Font": "LuckiestGuy",
+        "TextColor3": [
+         1.0,
+         0.47058823529411764,
+         0.3137254901960784
+        ],
+        "TextStrokeTransparency": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Antorcha",
+   "className": "Part",
+   "properties": {
+    "Size": [
+     1,
+     8,
+     1
+    ],
+    "CFrame": {
+     "CFrame": {
+      "position": [
+       -58,
+       4.5,
+       -50
+      ],
+      "orientation": [
+       [
+        1.0,
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        1.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Anchored": true,
+    "Color": [
+     0.23529411764705882,
+     0.1568627450980392,
+     0.11764705882352941
+    ],
+    "Material": "Wood",
+    "TopSurface": "Smooth",
+    "BottomSurface": "Smooth"
+   },
+   "children": [
+    {
+     "name": "PointLight",
+     "className": "PointLight",
+     "properties": {
+      "Color": [
+       1.0,
+       0.6666666666666666,
+       0.3137254901960784
+      ],
+      "Brightness": 2,
+      "Range": 25
+     }
+    },
+    {
+     "name": "Fire",
+     "className": "Fire",
+     "properties": {
+      "Size": 4,
+      "Heat": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "Antorcha",
+   "className": "Part",
+   "properties": {
+    "Size": [
+     1,
+     8,
+     1
+    ],
+    "CFrame": {
+     "CFrame": {
+      "position": [
+       -58,
+       4.5,
+       30
+      ],
+      "orientation": [
+       [
+        1.0,
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        1.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Anchored": true,
+    "Color": [
+     0.23529411764705882,
+     0.1568627450980392,
+     0.11764705882352941
+    ],
+    "Material": "Wood",
+    "TopSurface": "Smooth",
+    "BottomSurface": "Smooth"
+   },
+   "children": [
+    {
+     "name": "PointLight",
+     "className": "PointLight",
+     "properties": {
+      "Color": [
+       1.0,
+       0.6666666666666666,
+       0.3137254901960784
+      ],
+      "Brightness": 2,
+      "Range": 25
+     }
+    },
+    {
+     "name": "Fire",
+     "className": "Fire",
+     "properties": {
+      "Size": 4,
+      "Heat": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "Antorcha",
+   "className": "Part",
+   "properties": {
+    "Size": [
+     1,
+     8,
+     1
+    ],
+    "CFrame": {
+     "CFrame": {
+      "position": [
+       58,
+       4.5,
+       -50
+      ],
+      "orientation": [
+       [
+        1.0,
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        1.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Anchored": true,
+    "Color": [
+     0.23529411764705882,
+     0.1568627450980392,
+     0.11764705882352941
+    ],
+    "Material": "Wood",
+    "TopSurface": "Smooth",
+    "BottomSurface": "Smooth"
+   },
+   "children": [
+    {
+     "name": "PointLight",
+     "className": "PointLight",
+     "properties": {
+      "Color": [
+       1.0,
+       0.6666666666666666,
+       0.3137254901960784
+      ],
+      "Brightness": 2,
+      "Range": 25
+     }
+    },
+    {
+     "name": "Fire",
+     "className": "Fire",
+     "properties": {
+      "Size": 4,
+      "Heat": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "Antorcha",
+   "className": "Part",
+   "properties": {
+    "Size": [
+     1,
+     8,
+     1
+    ],
+    "CFrame": {
+     "CFrame": {
+      "position": [
+       58,
+       4.5,
+       30
+      ],
+      "orientation": [
+       [
+        1.0,
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        1.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    "Anchored": true,
+    "Color": [
+     0.23529411764705882,
+     0.1568627450980392,
+     0.11764705882352941
+    ],
+    "Material": "Wood",
+    "TopSurface": "Smooth",
+    "BottomSurface": "Smooth"
+   },
+   "children": [
+    {
+     "name": "PointLight",
+     "className": "PointLight",
+     "properties": {
+      "Color": [
+       1.0,
+       0.6666666666666666,
+       0.3137254901960784
+      ],
+      "Brightness": 2,
+      "Range": 25
+     }
+    },
+    {
+     "name": "Fire",
+     "className": "Fire",
+     "properties": {
+      "Size": 4,
+      "Heat": 8
+     }
+    }
+   ]
+  }
+ ]
+}
